@@ -1,0 +1,52 @@
+.workout-list {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .workout-list h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .workout-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .workout-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .workout-actions button {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .workout-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .workout-actions button:nth-child(2) {
+    background-color: #dc3545;
+  }
+  
+  .workout-actions button:nth-child(2):hover {
+    background-color: #c82333;
+  }
+  

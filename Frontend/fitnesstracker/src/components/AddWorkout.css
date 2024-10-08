@@ -1,0 +1,59 @@
+.add-workout {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2d3a40;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-workout h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .message {
+    color: #28a745;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #aaa;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3b4a50;
+    color: #fff;
+  }
+  
+  .form-group input::placeholder {
+    color: #bbb;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #218838;
+  }
+  
